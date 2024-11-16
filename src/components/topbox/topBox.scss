@@ -1,0 +1,52 @@
+.topBox {
+
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 3.4rem;
+    }
+
+    .list {
+
+        .listItem {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+
+            .user {
+                display: flex;
+                gap: 2rem;
+                
+                img {
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .userTexts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+
+                    .username {
+                        font-weight: 500;
+                        font-size: 1.4rem;
+                    }
+
+                    .email {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+
+            .amount {
+                font-weight: 500;
+                font-size: 1.4rem;
+            }
+        }
+        .listItem:last-child {
+            margin-bottom: 0; // Override margin for the last item
+        }
+    }
+}

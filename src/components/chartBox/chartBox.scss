@@ -1,0 +1,54 @@
+.chatBox {
+    display: flex;
+    height: 100%;
+
+    .boxInfo {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1.6rem;
+        }
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .link {
+        font-size: 1.6rem;
+    }
+
+    .chatInfo {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .charts {
+            height: 100%;
+            width: 100%;
+        }
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+
+            .percentage {
+                font-weight: bold;
+                font-size: 2rem;
+            }
+
+            .duration {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
